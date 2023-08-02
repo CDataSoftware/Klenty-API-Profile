@@ -4,50 +4,50 @@
  <summary>Klenty Profile</summary>
 	 <br>
 	 <ul>
-	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">Connecting to Klenty</a>
-	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#using-the-profile-1/">Using the Profile</a>
+	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#connecting-to-klenty">Connecting to Klenty</a>
+	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-1">Using the Profile</a>
 		<ul>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ADO.NET</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">JDBC</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ODBC</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">PowerBI</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">SSIS</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">Excel</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-adonet">ADO.NET</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-jdbc">JDBC</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-odbc">ODBC</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-powerbi">PowerBI</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-ssis">SSIS</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-excel">Excel</a>
 		</ul>
-	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#sql-compliance-1/">SQL Compliance</a>
+	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-1">SQL Compliance</a>
 		<ul>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">SELECT STATEMENTS</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">SQL FUNCTIONS</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-2">SELECT STATEMENTS</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-3">SQL FUNCTIONS</a>
 				<ul>
-					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">String FUNCTIONS</a>
-					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">Date FUNCTIONS</a>
-					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">Math FUNCTIONS</a>
+					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-3">String FUNCTIONS</a>
+					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-5">Date FUNCTIONS</a>
+					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-6">Math FUNCTIONS</a>
 				</ul>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">EXECUTE STATEMENTS</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-7">EXECUTE STATEMENTS</a>
 		</ul>
-  	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#schema-discovery-1/">Schema Discovery</a>
+  	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-1">Schema Discovery</a>
 		<ul>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ADO.NET</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">JDBC</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">System Tables</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-1">ADO.NET</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-3">JDBC</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-4">System Tables</a>
 				<ul>
-					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">sys_tables</a>
-					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">sys_tablecolumns</a>
-					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">sys_procedures</a>
+					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-5">sys_tables</a>
+					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-6">sys_tablecolumns</a>
+					<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-7">sys_procedures</a>
 				</ul>
 		</ul>
-  	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#klenty-tables/">Tables</a>
+  	<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#klenty-tables">Tables</a>
 		<ul>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">CompanyCadences</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">Lists</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">UserCadences</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ProspectByList</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ProspectDetailsByEmail</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ProspectStatusByEmail</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ProspectDetailsWithCustomFields</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ProspectStatusByID</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ProspectByCreationDate</a>
-			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/Klenty%20API%20Profile%20-%20Help%20Documentation%20(Readme).md#connecting-to-klenty/">ProspectByLastUpdatedDate</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#companycadences">CompanyCadences</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#lists">Lists</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#usercadences">UserCadences</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectbylist">ProspectByList</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectdetailsbyemail">ProspectDetailsByEmail</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectstatusbyemail">ProspectStatusByEmail</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectdetailswithcustomfields">ProspectDetailsWithCustomFields</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectstatusbyid">ProspectStatusByID</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectbycreationdate">ProspectByCreationDate</a>
+			<li><a href="https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectbylastupdateddate">ProspectByLastUpdatedDate</a>
 		</ul>
 	</ul>
  </details>
@@ -56,24 +56,21 @@
 
 ## Klenty Profile for API Driver
 The CData API Profile for Klenty allows you to query data from Klenty. The Klenty profile is a single file (i.e. Klenty.apip) which can be used along with the [CData API Driver](https://www.cdata.com/apidriver/). The profile contains the table definitions and other metadata that the CData API Driver uses to connect to Klenty.
-To use the Klenty Profile, set the Profile property of CData API Driver to the path of the Klenty profile. In addition, other connection properties will be required to authenticate to the service. You can find instructions specific to the Klenty Profile in Connecting to Klenty. Once the connction to the profile has been established, you may access the data exposed by the profile from code or from various applications.
+To use the Klenty Profile, set the Profile property of CData API Driver to the path of the Klenty profile. In addition, other connection properties will be required to authenticate to the service. You can find instructions specific to the Klenty Profile in [Connecting to Klenty](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#connecting-to-klenty). Once the connction to the profile has been established, you may access the data exposed by the profile from code or from various applications.
 
 ### Using the Profile
-The API Profile can be used to connect to data exposed by a service in various applications. See Using the API Profile for a list of guides on using the drivers in different frameworks, such as ADO.NET, JDBC or using different applications by connecting to the ODBC, Excel Add-in, or SSIS provider.
+The API Profile can be used to connect to data exposed by a service in various applications. See [Using the API Profile](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-1) for a list of guides on using the drivers in different frameworks, such as ADO.NET, JDBC or using different applications by connecting to the ODBC, Excel Add-in, or SSIS provider.
 
 ### SQL Compliance
-The API Profile are fully compatible with SQL-92 syntax for selecting and executing procedures. In SQL Compliance, you can find a syntax reference and code examples outlining the supported SQL of each profile.
+The API Profile are fully compatible with SQL-92 syntax for selecting and executing procedures. In [SQL Compliance](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-1), you can find a syntax reference and code examples outlining the supported SQL of each profile.
 
 ### Schema Discovery
-The API Profiles support standard schema collections to retrieve the metadata exposed. See Schema Discovery to find more about the standard schema classes in ADO.NET and JDBC exposing this data. Additionally, you may query the System Tables to access additional metadata, such as data source capabilities.
+The API Profiles support standard schema collections to retrieve the metadata exposed. See [Schema Discovery](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-1) to find more about the standard schema classes in ADO.NET and JDBC exposing this data. Additionally, you may query the [System Tables](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-4) to access additional metadata, such as data source capabilities.
 
 ### Tables
-The provider models the data in APIs into a list of tables that can be queried using standard SQL statements. In the Tables section you can find descriptions of the available table in the profile, including column names and datatypes.
+The provider models the data in APIs into a list of tables that can be queried using standard SQL statements. In the [Tables](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#klenty-tables) section you can find descriptions of the available table in the profile, including column names and datatypes.
 
-### Stored Procedures
-Stored Procedures are function-like interfaces to the data source. They can be used to access functionality not represented as SELECT, INSERT, UPDATE, or DELETE. Stored Procedures describes the available procedures in the profile, along with the necessary parameters.
-
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -101,7 +98,7 @@ The connection string properties are the various options that can be used to est
 | _AuthScheme_ | The scheme used for authentication. Accepted and Allowed entries are: **NONE**  |
 | _User_       | The Klenty API user account used to authenticate.                                                     |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -110,25 +107,25 @@ The API Profile can be used in the CData API driver to enable access to data exp
 
 ### API Profile integrations
 #### In ADO.NET
-Using the ADO.NET provider for API with this profile will enable access to the profile in any .NET framework. See ADO.NET for a walk-through of writing data access code this profile in ADO.NET by creating data connection objects, DataReader or DataAdapter classes.
+Using the ADO.NET provider for API with this profile will enable access to the profile in any .NET framework. See [ADO.NET](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-adonet) for a walk-through of writing data access code this profile in ADO.NET by creating data connection objects, DataReader or DataAdapter classes.
 
 #### In JDBC
-The JDBC driver for API will allow access to the profile from a wide range of Java application, including custom code. See JDBC for a walk-through of writing data access code to this profile using the JDBC driver, including establishing a connection and executing basice statements.
+The JDBC driver for API will allow access to the profile from a wide range of Java application, including custom code. See [JDBC](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-jdbc) for a walk-through of writing data access code to this profile using the JDBC driver, including establishing a connection and executing basice statements.
 
 #### In ODBC
-With the ODBC driver for API, you can access data exposed by this profile from any ODBC compatible application. For information on how to get started with the ODBC and creating a DSN connecting to this profile, see ODBC.
+With the ODBC driver for API, you can access data exposed by this profile from any ODBC compatible application. For information on how to get started with the ODBC and creating a DSN connecting to this profile, see [ODBC](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-odbc).
 
 #### Power BI
-The CData Power BI Connector for API offers self-service integration with Microsoft Power BI. The connector facilitates live access to data from API profiles in Power BI from the Get Data window. The connector also provides direct querying to visualize and analyze API data. See Power BI for more information on how to connect to API profiles in the API PowerBI connector.
+The CData Power BI Connector for API offers self-service integration with Microsoft Power BI. The connector facilitates live access to data from API profiles in Power BI from the Get Data window. The connector also provides direct querying to visualize and analyze API data. See [Power BI](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-powerbi) for more information on how to connect to API profiles in the API PowerBI connector.
 
 #### In SSIS
-The CData SSIS Components for API enable you to connect SQL Server with data from API profiles through SSIS workflows. The components wrap the complexity of accessing API data in standard SSIS data flow components. See SSIS for more information on how to connect to APIs in SSIS.
+The CData SSIS Components for API enable you to connect SQL Server with data from API profiles through SSIS workflows. The components wrap the complexity of accessing API data in standard SSIS data flow components. See [SSIS](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-ssis) for more information on how to connect to APIs in SSIS.
 
 #### In Excel
-The CData Excel Add-in for API provides the easiest way to connect to API profiles from Excel. From the CData ribbon, you can select API profile data as tables and columns into the spreadsheet. The spreadsheet is then linked with the remote data. To update the data, edit the spreadsheet. See Excel for more information.  
+The CData Excel Add-in for API provides the easiest way to connect to API profiles from Excel. From the CData ribbon, you can select API profile data as tables and columns into the spreadsheet. The spreadsheet is then linked with the remote data. To update the data, edit the spreadsheet. See [Excel](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#using-the-profile-in-excel) for more information.  
 <br>The API Driver is available in other editions as well. For information on how to connect using the other available editions, please refer to the edition specific API help.</br>
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -189,7 +186,7 @@ using (APIConnection connection = new APIConnection(connectionString)) {
 }
 ```
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -234,7 +231,7 @@ if (ret) {
 }
 ```
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -263,7 +260,7 @@ Once you've created your DSN, you can connect to the data exposed by the profile
 
 In your application, you can now select this DSN to connect to your data. For more information, please refer the documentation specific to your client application.
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -298,7 +295,7 @@ After Installing the Connector and Creating the Data Source Name, you can connec
 
 After getting the data, you can create visuals and reports.
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -323,7 +320,7 @@ Follow the procedure below to connect to API Profiles, retrieve data, and provid
 
 When you execute the data flow, rows from your selected table or statement will be made available to the components in the data flow.
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -344,7 +341,7 @@ After Establishing a Connection, select tables, columns, and filters -- as you m
 2.	In the Connection menu, select a connection or select the option to create a new connection.
 3.	Select a table to start building the query. You can define filters, column aliases, and a limit on the records to return.
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -352,15 +349,15 @@ After Establishing a Connection, select tables, columns, and filters -- as you m
 The API Profile supports several operations on profile data, including selecting and executing procedures.
 
 ### SELECT Statements
-The API Profile supports SQL-92 Syntax. SELECT Statements includes a comprehensive list of the supported keywords and clauses, as well as syntax reference and examples.
+The API Profile supports SQL-92 Syntax. [SELECT Statements](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-2) includes a comprehensive list of the supported keywords and clauses, as well as syntax reference and examples.
 
 ### SQL Functions
-In addition to standard SELECT statement clauses, the API Profile supports additional functionaliy. See SQL Functions for documentation and examples of SQL functions that are supported in SELECT queries, including STRING Functions, DATE Functions and MATH Functions.
+In addition to standard SELECT statement clauses, the API Profile supports additional functionaliy. See [SQL Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-3) for documentation and examples of SQL functions that are supported in SELECT queries, including [STRING Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-4), [DATE Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-5) and [MATH Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-6).
 
 ### EXECUTE Statements
-Use EXECUTE or EXEC statements to execute stored procedures, when functionality cannot be represented diretly as a SELECT, INSERT, UPDATE or DELETE statement. See EXECUTE Statements for a syntax reference and procedure examples.
+Use EXECUTE or EXEC statements to execute stored procedures, when functionality cannot be represented diretly as a SELECT, INSERT, UPDATE or DELETE statement. See [EXECUTE Statements](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-7) for a syntax reference and procedure examples.
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -493,7 +490,7 @@ Some input-only fields are available in SELECT statements. These fields, called 
 
     `SELECT * FROM NorthwindOData WHERE  = '@'`
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -511,17 +508,17 @@ The provider interprets all SQL function inputs as either strings or column iden
     `SELECT DATENAME('yy',GETDATE())`
 
 ### String Functions
-These functions perform string manipulations and return a string value. See STRING Functions for more details.  
+These functions perform string manipulations and return a string value. See [STRING Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-4) for more details.  
 
 `SELECT CONCAT(firstname, space(4), lastname) FROM NorthwindOData WHERE Email = 'ana.trujilo@northwind.org'`
 
 ### Date Functions
-These functions perform date and date time manipulations. See DATE Functions for more details.  
+These functions perform date and date time manipulations. See [DATE Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-5) for more details.  
 
 `SELECT CURRENT_TIMESTAMP() FROM NorthwindOData`
 
 ### Math Functions
-These functions provide mathematical operations. See MATH Functions for more details.  
+These functions provide mathematical operations. See [MATH Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-6) for more details.  
 
 `SELECT RAND() FROM NorthwindOData`
 
@@ -530,7 +527,7 @@ The provider supports column names, constants, and results of other functions as
 
 `SELECT CONCAT('Mr.', SPACE(2), firstname, SPACE(4), lastname) FROM NorthwindOData`
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1036,7 +1033,7 @@ SELECT XML_EXTRACT('<vowels><ch>a</ch><ch>e</ch><ch>i</ch><ch>o</ch><ch>u</ch></
 -- Result: 'a;e;i;o;u'
 ```
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1410,7 +1407,7 @@ SELECT YEAR('2018-02-01');
 -- Result: 2018
 ```
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1683,7 +1680,7 @@ SELECT TRUNC(10.3423,2);
 -- Result: 10.34
 ```
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1715,7 +1712,7 @@ Execute a parameterized stored procedure statement:
 
 `EXECUTE my_proc second = @p1, first = @p2, third = @p3;`
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1723,18 +1720,18 @@ Execute a parameterized stored procedure statement:
 The API Profile supports schema discovery using common classes or using SQL queries to the available system tables. The common classes enable access to schema information, connection property information, and information on the columns returned.
 
 ### Using ADO.NET
-See ADO.NET for information on how you can use ADO.NET schema collections to retrieve schema and connection property information, including table and column listings. Invoke the GetSchema method of the APIConnection class to access the metadata.
+See [ADO.NET](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-2) for information on how you can use ADO.NET schema collections to retrieve schema and connection property information, including table and column listings. Invoke the GetSchema method of the APIConnection class to access the metadata.
 
 ### Using JDBC
-See JDBC for information on how you can use JDBC interfaces to access schema information, connection property metadata, and result set metadata. The driver implements the standard interfaces as defined in the JDBC 4.0 specification.
+See [JDBC](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-3) for information on how you can use JDBC interfaces to access schema information, connection property metadata, and result set metadata. The driver implements the standard interfaces as defined in the JDBC 4.0 specification.
 
 ### Using SQL
-Query the System Tables to access additional metadata, such as data source capabilities. These system tables can be used in any edition of the API driver.
+Query the [System Tables](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-4) to access additional metadata, such as data source capabilities. These system tables can be used in any edition of the API driver.
 
 ### Automatic Schema Discovery
 Schema discovery is obtained dynamically for the API Profile when used in the CData ODBC Driver, PowerBI Connector, SSIS Component or the Excel Add-in. To load the available tables, columns and procedures, simply load the connection in any application compatible with the connector.
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1804,12 +1801,12 @@ The Columns and ViewColumns schema collections and DataTables returned from the 
 | IS_READONLY              | System.Boolean | Whether the column is read-only                                                                                          |
 | PROVIDER_TYPE            | System.Type    | Indicates the appropriate data type dependent on the language you are executing it                                       |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
 ## Schema Discovery
-The API Profile supports standard ADO.NET schemas to access profile metadata.
+The API Profile supports standard JDBC schemas to access profile metadata.
 
 ### Retrieving the Table Listing
 You can use the getTables method of the DatabaseMetaData interface to retrieve a list of tables:
@@ -1876,7 +1873,7 @@ The getColumns method returns the following columns:
 | ISREADONLY         | boolean       | Whether the column is read-only.                                                                                                                                |
 | ISKEY              | boolean       | Whether the column is a key.                                                                                                                                    |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1885,11 +1882,11 @@ Schema information is available in the form of system tables which can be querie
 
 ### Schema Tables
 The following tables return database metadata for API:
--	sys_tables: Lists the available tables.
--	sys_tablecolumns: Describes the columns of the available tables.
--	sys_procedures: Describes the available stored procedures.
+-	[sys_tables](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-5): Lists the available tables.
+-	[sys_tablecolumns](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-6): Describes the columns of the available tables.
+-	[sys_procedures](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#schema-discovery-7): Describes the available stored procedures.
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1910,7 +1907,7 @@ SELECT * FROM sys_tables
 | TableType   | String   | The table type.                    |
 | Description | String   | The description of the table.      |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1943,7 +1940,7 @@ SELECT ColumnName, DataTypeName FROM sys_tablecolumns WHERE TableName='Northwind
 | IsKey             | Boolean  | Whether the column is a primary key.                                                                            |
 | IsHidden          | Boolean  | Whether the column is hidden.                                                                                   |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1962,7 +1959,7 @@ SELECT * FROM sys_procedures
 | ProcedureName | String   | The name of the stored procedure.             |
 | Description   | String   | A description of the stored procedure.        |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -1974,18 +1971,18 @@ Generally, querying API tables is the same as querying a table in a relational d
 ### Klenty Tables
 | **Name**        | **Description**                    |
 |:-----------------|:------------------------------------|
-| CompanyCadences | Returns a table containing all cadences in that team. |
-| Lists           | Returns a table containing the Prospect Lists created by the team.            |
-| UserCadences    | It expects the email address of the user as an input and will return an object containing cadences that belong to that user. |
-| ProspectByList  | It expects a Prospect List name and will return an object containing all the prospects in the list. You can also provide start & limit values to filter the response.            |
-| ProspectDetailsByEmail | It expects an email address and will return an object containing details of the Prospect who matches that email address. |
-| ProspectStatusByEmail           | It expects the email address of the Prospect, and will return an object containing the status of the Prospect who matches the email address.            |
-| ProspectDetailsWithCustomFields | Returns the value of custom fields for the specified Prospect along with other fields. |
-| ProspectStatusByID           | It expects an ID of a Prospect and will return a table containing the status of that Prospect.            |
-| ProspectByCreationDate | It expects the start date & end date and returns the prospects created between those dates. If the end date is not given, the endpoint considers the present date as the end date. The end date should be ahead of the start date. |
-| ProspectByLastUpdatedDate           | Returns prospects based on the last date of update (last interaction with the prospect).            |
+| [CompanyCadences](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#companycadences) | Returns a table containing all cadences in that team. |
+| [Lists](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#lists)           | Returns a table containing the Prospect Lists created by the team.            |
+| [UserCadences](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#usercadences)    | It expects the email address of the user as an input and will return an object containing cadences that belong to that user. |
+| [ProspectByList](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectbylist)  | It expects a Prospect List name and will return an object containing all the prospects in the list. You can also provide start & limit values to filter the response.            |
+| [ProspectDetailsByEmail](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectdetailsbyemail) | It expects an email address and will return an object containing details of the Prospect who matches that email address. |
+| [ProspectStatusByEmail](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectstatusbyemail)           | It expects the email address of the Prospect, and will return an object containing the status of the Prospect who matches the email address.            |
+| [ProspectDetailsWithCustomFields](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectdetailswithcustomfields) | Returns the value of custom fields for the specified Prospect along with other fields. |
+| [ProspectStatusByID](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectstatusbyid)           | It expects an ID of a Prospect and will return a table containing the status of that Prospect.            |
+| [ProspectByCreationDate](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectbycreationdate) | It expects the start date & end date and returns the prospects created between those dates. If the end date is not given, the endpoint considers the present date as the end date. The end date should be ahead of the start date. |
+| [ProspectByLastUpdatedDate](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#prospectbylastupdateddate)           | Returns prospects based on the last date of update (last interaction with the prospect).            |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2001,7 +1998,7 @@ Returns a table containing all cadences in that team.
 | isActive    | string   |                |
 | createdDate | datetime |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2014,7 +2011,7 @@ Returns a table containing the Prospect Lists created by the team.
 | id[KEY]     | string   |                |
 | name        | string   |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2030,7 +2027,7 @@ It expects the email address of the user as an input and will return an object c
 | isActive    | string   |                |
 | createdDate | datetime |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2050,7 +2047,7 @@ It expects a Prospect List name and will return an object containing all the pro
 | assignTo    | string   |                |
 | Company     | string   |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2083,7 +2080,7 @@ It expects an email address and will return an object containing details of the 
 | Tags    | string   |                |
 | assignTo     | string   |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2096,7 +2093,7 @@ It expects the email address of the Prospect, and will return an object containi
 | cadenceStatus     | string   |                |
 | prospectStatus    | string   |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2130,7 +2127,7 @@ Returns the value of custom fields for the specified Prospect along with other f
 | CustomFields    | string   |                |
 | assignTo     | string   |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2143,7 +2140,7 @@ It expects an ID of a Prospect and will return an table containing the status of
 | cadenceStatus     | string   |                |
 | prospectStatus    | string   |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2176,7 +2173,7 @@ It expects the start date & end date and returns the prospects created between t
 | Tags    | string   |                |
 | assignTo     | string   |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
 <br>
 
@@ -2209,5 +2206,5 @@ Returns prospects based on the last date of update (last interaction with the pr
 | Tags    | string   |                |
 | assignTo     | string   |                |
 
-[Jump to top](https://support.klenty.com/en/articles/8193357-klenty-s-get-api-s)
+[Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
