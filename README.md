@@ -138,7 +138,7 @@ See Establishing a Connection for guides to defining the connection string and a
 #### **C#**
 ```c#
 using (APIConnection connection = 
-  new APIConnection("Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'"))
+  new APIConnection("Profile=Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'"))
 {
   connection.Open();
 }
@@ -150,7 +150,7 @@ The APIDataReader retrieves data faster than the APIDataAdapter because it can r
 #### **C#**
 
 ```c#
-string connectionString = "Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
+string connectionString = "Profile=Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
 using (APIConnection connection = new APIConnection(connectionString)) {
   APICommand cmd = new APICommand("SELECT * FROM CompanyCadences", connection);
 
@@ -170,7 +170,7 @@ The following example selects the name and owner columns of the CompanyCadences 
 
 #### C#
 ```c#
-string connectionString = "Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
+string connectionString = "Profile=Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
 using (APIConnection connection = new APIConnection(connectionString)) {
   APIDataAdapter dataAdapter = new APIDataAdapter(
   "SELECT name, owner FROM CompanyCadences", connection);
