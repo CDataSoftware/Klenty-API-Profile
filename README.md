@@ -138,7 +138,7 @@ See Establishing a Connection for guides to defining the connection string and a
 #### **C#**
 ```c#
 using (APIConnection connection = 
-  new APIConnection("Profile=Klenty.apip;ProfileSettings=[Profile Configuration Settings]"))
+  new APIConnection("Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'"))
 {
   connection.Open();
 }
@@ -150,7 +150,7 @@ The APIDataReader retrieves data faster than the APIDataAdapter because it can r
 #### **C#**
 
 ```c#
-string connectionString = "Profile=Klenty.apip;ProfileSettings=[Profile Configuration Settings]";
+string connectionString = "Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
 using (APIConnection connection = new APIConnection(connectionString)) {
   APICommand cmd = new APICommand("SELECT * FROM CompanyCadences", connection);
 
@@ -170,7 +170,7 @@ The following example selects the name and owner columns of the CompanyCadences 
 
 #### C#
 ```c#
-string connectionString = "Profile=Klenty.apip;ProfileSettings=[Profile Configuration Settings]";
+string connectionString = "Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
 using (APIConnection connection = new APIConnection(connectionString)) {
   APIDataAdapter dataAdapter = new APIDataAdapter(
   "SELECT name, owner FROM CompanyCadences", connection);
@@ -204,13 +204,13 @@ Class.forName("cdata.jdbc.api.APIDriver");
 #### Establish a Connection
 Provide the connection string with the getConnection method of the static DriverManager class. Start the connection string with "jdbc:api:". A typical connection string is the following:
 ```java
-Connection conn = DriverManager.getConnection("jdbc:api:Profile=Klenty.apip;ProfileSettings=[Profile Configuration Settings]");
+Connection conn = DriverManager.getConnection("jdbc:api:Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'");
 ```
 Alternatively, you can prepare the connection options using a Properties object. Pass the Properties object to the DriverManager.
 ```java
 Properties prop = new Properties();
 prop.setProperty("Profile", "Klenty.apip");
-prop.setProperty("ProfileSettings", "[Profile Configuration Settings]");
+prop.setProperty("ProfileSettings", "'APIKey=my_authtoken;AuthScheme=None;User=my_user;'");
 Connection conn = DriverManager.getConnection("jdbc:api:,");
 ```
 ### Executing Select Statements
