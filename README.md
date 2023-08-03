@@ -430,65 +430,60 @@ SELECT {
     <expression> { = | > | < | >= | <= | <> | != | LIKE | NOT LIKE | IN | NOT IN | IS NULL | IS NOT NULL | AND | OR | CONTAINS | BETWEEN } [ <expression> ]
   } [ { AND | OR } ... ]
 ```
-### Examples - Using 'NorthwindOData' table (opensource endpoint) to explain the concepts
+### Examples
 1.	Return all columns:
    
-    `SELECT * FROM NorthwindOData`
+    `SELECT * FROM CompanyCadences`
 
 2.	Rename a column:
    
-    `SELECT [Username] AS MY_Username FROM NorthwindOData`
+    `SELECT [name] AS Project_Name FROM CompanyCadences`
 
 3.	Cast a column's data as a different data type:
    
-    `SELECT CAST(AnnualRevenue AS VARCHAR) AS Str_AnnualRevenue FROM NorthwindOData`
+    `SELECT CAST(createdDate AS VARCHAR) AS Str_createdDate FROM CompanyCadences`
 
 4.	Search data:
 
-  	`SELECT * FROM NorthwindOData WHERE Email = 'ana.trujilo@northwind.org';`
+    `SELECT * FROM CompanyCadences WHERE owner = 'test@cdata.com'`
 
 5.	Return the number of items matching the query criteria:
    
-    `SELECT COUNT(*) AS MyCount FROM NorthwindOData`
+    `SELECT COUNT(*) AS MyCount FROM CompanyCadences`
 
 6.	Return the number of unique items matching the query criteria:
 
-  	`SELECT COUNT(DISTINCT Username) FROM NorthwindOData`
+    `SELECT COUNT(DISTINCT owner) FROM CompanyCadences`
   	
 7.	Return the unique items matching the query criteria:
 
-    `SELECT DISTINCT Username FROM NorthwindOData`
+    `SELECT DISTINCT owner FROM CompanyCadences`
 
 8.	Summarize data:
 
-    `SELECT Username, MAX(AnnualRevenue) FROM NorthwindOData GROUP BY Username`
+    `SELECT owner, UPPER(name) FROM CompanyCadences GROUP BY owner`
 
-  	See Aggregate Functions for details.
+	See [Aggregate Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-2) for details.
 
 9.	Retrieve data from multiple tables.
 
-    `SELECT Customers.ContactName, Orders.OrderDate FROM Customers, Orders WHERE Customers.CustomerID=Orders.CustomerID`
+    `SELECT CompanyCadences.Id, Lists.Id FROM CompanyCadences, Lists WHERE CompanyCadences.Id=Lists.Id`
 
-  	See JOIN Queries for details.
+	See [JOIN Queries](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-2) for details.
 
 10.	Sort a result set in ascending order:
 
-   	`SELECT Email, Username FROM NorthwindOData  ORDER BY Username ASC`
+    `SELECT owner, name FROM CompanyCadences ORDER BY owner ASC`
    	
 11.	Restrict a result set to the specified number of rows:
 
-   	`SELECT Email, Username FROM NorthwindOData LIMIT 10`
+    `SELECT owner, name FROM CompanyCadences LIMIT 10`
 
 12.	Parameterize a query to pass in inputs at execution time. This enables you to create prepared statements and mitigate SQL injection attacks.
 
-    `SELECT * FROM NorthwindOData WHERE Email = @param`
+    `SELECT * FROM ProspectDetailsByEmail WHERE Email = 'test@cdata.com'`
 
-See Explicitly Caching Data for information on using the SELECT statement in offline mode.
-
-### Pseudo Columns
-Some input-only fields are available in SELECT statements. These fields, called pseudo columns, do not appear as regular columns in the results, yet may be specified as part of the WHERE clause. You can use pseudo columns to access additional features from API.
-
-    `SELECT * FROM NorthwindOData WHERE  = '@'`
+See [Explicitly Caching Data](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-2) for information on using the SELECT statement in offline mode.
 
 [Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
@@ -510,22 +505,30 @@ The provider interprets all SQL function inputs as either strings or column iden
 ### String Functions
 These functions perform string manipulations and return a string value. See [STRING Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-4) for more details.  
 
-`SELECT CONCAT(firstname, space(4), lastname) FROM NorthwindOData WHERE Email = 'ana.trujilo@northwind.org'`
+```sql
+SELECT CONCAT(FirstName, space(1), LastName) FROM ProspectDetailsByEmail WHERE Email = 'test@cdata.com'
+```
 
 ### Date Functions
 These functions perform date and date time manipulations. See [DATE Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-5) for more details.  
 
-`SELECT CURRENT_TIMESTAMP() FROM NorthwindOData`
+```sql
+SELECT CURRENT_TIMESTAMP() FROM CompanyCadences
+```
 
 ### Math Functions
 These functions provide mathematical operations. See [MATH Functions](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#sql-compliance-6) for more details.  
 
-`SELECT RAND() FROM NorthwindOData`
+```sql
+SELECT RAND() FROM CompanyCadences
+```
 
 ### Function Parameters and Nesting SQL Functions
 The provider supports column names, constants, and results of other functions as parameters to functions. The following are all valid uses of SQL functions:  
 
-`SELECT CONCAT('Mr.', SPACE(2), firstname, SPACE(4), lastname) FROM NorthwindOData`
+```sql
+SELECT CONCAT('Mr./Ms.', SPACE(1), FirstName, SPACE(1), LastName) FROM ProspectDetailsByEmail WHERE Email = 'test@cdata.com'
+```
 
 [Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
@@ -1762,7 +1765,7 @@ The Tables schema collection returns the following columns.
 | TABLE_NAME    | System.String | The table name.                       |
 | TABLE_TYPE    | System.String | The table type.                       |
 
-### Retrieving Column Metadata - Using 'NorthwindOData' table (opensource endpoint) to explain the concepts
+### Retrieving Column Metadata
 Call the GetSchema method of the APIConnection class to retrieve the Columns or ViewColumns schema collections. You can restrict results by table name, as shown in the example below.
 #### **C#**
 ```c#
@@ -1770,7 +1773,7 @@ string connectionString = "Profile=<Path to Profile>;ProfileSettings=<Profile Co
  
 using (APIConnection conn = new APIConnection(connectionString)) {
   conn.Open();
-  DataTable databaseSchema = conn.GetSchema("Columns", new string[] {"NorthwindOData"});
+  DataTable databaseSchema = conn.GetSchema("Columns", new string[] {"CompanyCadences"});
   foreach (DataRow column in databaseSchema.Rows) {
     Console.WriteLine(column["COLUMN_NAME"]);
     Console.WriteLine(column["IS_KEY"]);
@@ -1830,14 +1833,14 @@ The getTables method returns the following columns:
 | TABLE_TYPE      | String        | The table type.        |
 | REMARKS         | String        | The table description. |
 
-### Retrieving Column Metadata - Using 'NorthwindOData' table (opensource endpoint) to explain the concepts
-You can use the getColumns method of the DatabaseMetaData interface to retrieve column information. You can restrict the results by the table name. The code example below retrieves the column names for the NorthwindOData table:
+### Retrieving Column Metadata
+You can use the getColumns method of the DatabaseMetaData interface to retrieve column information. You can restrict the results by the table name. The code example below retrieves the column names for the CompanyCadences table:
 ```java
 String connectionString = "jdbc:api:Profile=<Path to Profile>;ProfileSettings=<Profile Configuration Settings>";
  
 Connection conn = DriverManager.getConnection(connectionString);
 DatabaseMetaData table_meta = conn.getMetaData();
-ResultSet rs = table_meta.getColumns(null,null,"NorthwindOData", null);
+ResultSet rs = table_meta.getColumns(null,null,"CompanyCadences", null);
 while(rs.next()){
   System.out.println(rs.getString("COLUMN_NAME"));
 }
@@ -1906,6 +1909,7 @@ SELECT * FROM sys_tables
 | TableName   | String   | The name of the table.             |
 | TableType   | String   | The table type.                    |
 | Description | String   | The description of the table.      |
+| IsUpdateable| String   | Shows if the data can be updated.  |
 
 [Jump to top](https://github.com/CDataSoftware/Klenty-API-Profile/blob/main/README.md#table-of-contents)
 </br>
@@ -1915,9 +1919,9 @@ SELECT * FROM sys_tables
 ## Schema Discovery
 Describes the columns of the available tables.
 
-The following query returns the columns and data types for the NorthwindOData table:
+The following query returns the columns and data types for the CompanyCadences table:
 ```sql
-SELECT ColumnName, DataTypeName FROM sys_tablecolumns WHERE TableName='NorthwindOData'
+SELECT ColumnName, DataTypeName FROM sys_tablecolumns WHERE TableName='CompanyCadences'
 ```
 ### Columns
 | **Name**          | **Type** | **Description**                                                                                                 |
@@ -1989,6 +1993,11 @@ Generally, querying API tables is the same as querying a table in a relational d
 ## CompanyCadences
 Returns a table containing all cadences in that team.
 
+The following query retrieves all the candence data from Klenty:
+```sql
+SELECT * FROM CompanyCadences
+```
+
 ### Columns
 | **Name**    | **Type** | **References** |
 |-------------|----------|----------------|
@@ -2005,6 +2014,11 @@ Returns a table containing all cadences in that team.
 ## Lists
 Returns a table containing the Prospect Lists created by the team.
 
+The following query retrieves all the prospect lists from Klenty:
+```sql
+SELECT * FROM Lists
+```
+
 ### Columns
 | **Name**    | **Type** | **References** |
 |-------------|----------|----------------|
@@ -2017,6 +2031,11 @@ Returns a table containing the Prospect Lists created by the team.
 
 ## UserCadences
 It expects the email address of the user as an input and will return an object containing cadences that belong to that user.
+
+The following query retrieves all the user related cadences from Klenty:
+```sql
+SELECT * FROM UserCadences WHERE owner = 'test@cdata.com'
+```
 
 ### Columns
 | **Name**    | **Type** | **References** |
@@ -2033,6 +2052,11 @@ It expects the email address of the user as an input and will return an object c
 
 ## ProspectByList
 It expects a Prospect List name and will return an object containing all the prospects in the list. You can also provide start & limit values to filter the response.
+
+The following query retrieves all the prospects in a list from Klenty:
+```sql
+SELECT * FROM ProspectByList WHERE List = 'List_Name'
+```
 
 ### Columns
 | **Name**    | **Type** | **References** |
@@ -2053,6 +2077,11 @@ It expects a Prospect List name and will return an object containing all the pro
 
 ## ProspectDetailsByEmail
 It expects an email address and will return an object containing details of the Prospect who matches that email address. 
+
+The following query retrieves all the prospect details based on an email address from Klenty:
+```sql
+SELECT * FROM ProspectDetailsByEmail where Email = 'test@cdata.com'
+```
 
 ### Columns
 | **Name**    | **Type** | **References** |
@@ -2087,6 +2116,11 @@ It expects an email address and will return an object containing details of the 
 ## ProspectStatusByEmail
 It expects the email address of the Prospect, and will return an object containing the status of the Prospect who matches the email address.
 
+The following query retrieves all the prospect status based on an email address from Klenty:
+```sql
+SELECT * FROM ProspectStatusByEmail WHERE Email = 'test@cdata.com'
+```
+
 ### Columns
 | **Name**    | **Type** | **References** |
 |-------------|----------|----------------|
@@ -2099,6 +2133,11 @@ It expects the email address of the Prospect, and will return an object containi
 
 ## ProspectDetailsWithCustomFields
 Returns the value of custom fields for the specified Prospect along with other fields. 
+
+The following query retrieves the value of custom fields for a prospect based on an email address from Klenty:
+```sql
+SELECT * FROM ProspectDetailswithCustomFields WHERE Email = 'test@cdata.com'
+```
 
 ### Columns
 | **Name**    | **Type** | **References** |
@@ -2132,7 +2171,12 @@ Returns the value of custom fields for the specified Prospect along with other f
 <br>
 
 ## ProspectStatusByID
-It expects an ID of a Prospect and will return an table containing the status of that Prospect.
+It expects an ID of a Prospect and will return an table containing the status of that Prospect.  
+
+The following query retrieves prospect status based on their ID from Klenty:
+```sql
+SELECT * FROM ProspectStatusByID WHERE id = 'test@cdata.com'
+```
 
 ### Columns
 | **Name**    | **Type** | **References** |
@@ -2145,7 +2189,12 @@ It expects an ID of a Prospect and will return an table containing the status of
 <br>
 
 ## ProspectByCreationDate
-It expects the start date & end date and returns the prospects created between those dates. If the end date is not given, the endpoint considers the present date as the end date. The end date should be ahead of the start date.
+It expects the start date & end date and returns the prospects created between those dates. If the end date is not given, the endpoint considers the present date as the end date. The end date should be ahead of the start date.  
+
+The following query retrieves prospects created between specified dates from Klenty:
+```sql
+SELECT * FROM ProspectByCreationDate WHERE startDate='yyyy/mm/dd' AND endDate = 'yyyy/mm/dd'
+```
 
 ### Columns
 | **Name**    | **Type** | **References** |
@@ -2178,7 +2227,12 @@ It expects the start date & end date and returns the prospects created between t
 <br>
 
 ## ProspectByLastUpdatedDate
-Returns prospects based on the last date of update (last interaction with the prospect).
+Returns prospects based on the last date of update (last interaction with the prospect).  
+
+The following query retrieves prospect details based on its last date of update from Klenty:
+```sql
+SELECT * FROM ProspectByLastUpdatedDate WHERE startdate ='yyyy/mm/dd' AND enddate = 'yyyy/mm/dd'
+```
 
 ### Columns
 | **Name**    | **Type** | **References** |
