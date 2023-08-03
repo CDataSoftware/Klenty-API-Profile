@@ -1745,7 +1745,7 @@ The API Profile supports standard ADO.NET schemas to access profile metadata.
 The Tables schema collection lists all tables in the database. To retrieve the Tables schema collection, call the GetSchema method of the APIConnection class.
 #### **C#**
 ```c#
-String connectionString = "Profile=<Path to Profile>;ProfileSettings=<Profile Configuration Settings>";
+String connectionString = "Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
  
 using (APIConnection conn = new APIConnection(connectionString)) {
   conn.Open();
@@ -1769,7 +1769,7 @@ The Tables schema collection returns the following columns.
 Call the GetSchema method of the APIConnection class to retrieve the Columns or ViewColumns schema collections. You can restrict results by table name, as shown in the example below.
 #### **C#**
 ```c#
-string connectionString = "Profile=<Path to Profile>;ProfileSettings=<Profile Configuration Settings>";
+string connectionString = "Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
  
 using (APIConnection conn = new APIConnection(connectionString)) {
   conn.Open();
@@ -1814,7 +1814,7 @@ The API Profile supports standard JDBC schemas to access profile metadata.
 ### Retrieving the Table Listing
 You can use the getTables method of the DatabaseMetaData interface to retrieve a list of tables:
 ```java
-String connectionString = "jdbc:api:Profile=<Path to Profile>;ProfileSettings=<Profile Configuration Settings>";
+String connectionString = "jdbc:api:Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
  
 Connection conn = DriverManager.getConnection(connectionString);
 DatabaseMetaData table_meta = conn.getMetaData();
@@ -1836,7 +1836,7 @@ The getTables method returns the following columns:
 ### Retrieving Column Metadata
 You can use the getColumns method of the DatabaseMetaData interface to retrieve column information. You can restrict the results by the table name. The code example below retrieves the column names for the CompanyCadences table:
 ```java
-String connectionString = "jdbc:api:Profile=<Path to Profile>;ProfileSettings=<Profile Configuration Settings>";
+String connectionString = "jdbc:api:Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
  
 Connection conn = DriverManager.getConnection(connectionString);
 DatabaseMetaData table_meta = conn.getMetaData();
