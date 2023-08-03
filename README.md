@@ -1745,7 +1745,7 @@ The API Profile supports standard ADO.NET schemas to access profile metadata.
 The Tables schema collection lists all tables in the database. To retrieve the Tables schema collection, call the GetSchema method of the APIConnection class.
 #### **C#**
 ```c#
-String connectionString = "Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
+String connectionString = "Profile='C:\profiles\Klenty.apip';ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
  
 using (APIConnection conn = new APIConnection(connectionString)) {
   conn.Open();
@@ -1769,7 +1769,7 @@ The Tables schema collection returns the following columns.
 Call the GetSchema method of the APIConnection class to retrieve the Columns or ViewColumns schema collections. You can restrict results by table name, as shown in the example below.
 #### **C#**
 ```c#
-string connectionString = "Profile=C:\profiles\Klenty.apip;ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
+string connectionString = "Profile='C:\profiles\Klenty.apip';ProfileSettings='APIKey=my_authtoken;AuthScheme=None;User=my_user;'";
  
 using (APIConnection conn = new APIConnection(connectionString)) {
   conn.Open();
